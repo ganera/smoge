@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smoge/app/app_icons.dart';
+import 'package:smoge/utils/strings.dart';
 
 abstract class _Constants {
   static const double iconSize = 30;
@@ -83,7 +84,7 @@ class ActivityWidget extends StatelessWidget {
             opacity: 0.75,
             child: Text(
               title,
-              style: Theme.of(context).textTheme.body1,
+              style: Theme.of(context).textTheme.bodyText2,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
             ),
